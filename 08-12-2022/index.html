@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+    <p class="para">hello world</p>
+    <p class="para"></p>
+    <p class="para"></p>
+    <p class="para"></p>
+    <p class="para"></p>
+    </div>
+    
+</body>
+ <script>
+ 
+ console.log("hello world!");
+ 
+ document.title="hello world!";
+ 
+ let message ="kavi varman ruged boy and play boy!";
+ 
+ // alert(message);
+document.getElementsByClassName("para")[0].innerHTML ="hello world!"
+document.getElementsByClassName("para")[1].innerHTML ="hello"
+document.getElementsByClassName("para")[2].innerHTML ="world"
+
+let para = document.getElementsByClassName("para")[0].innerHtml
+console.log(para)
+
+</script>
+
+</html>
